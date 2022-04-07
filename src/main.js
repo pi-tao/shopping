@@ -8,9 +8,12 @@ Vue.component(TypeNav.name, TypeNav);
 import router from "@/router";
 // 引入仓库stroe
 import store from "@/store";
+// 引入mockjs
+import "@/mock/mockServe";
 
+// 引入swiper样式
+import "swiper/swiper-bundle.css";
 Vue.config.productionTip = false;
-
 new Vue({
   render: (h) => h(App),
   //注册路由
